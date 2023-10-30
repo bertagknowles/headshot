@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213218083810",
+    "project_id": "ai-headshot-75c55",
+    "storage_bucket": "ai-headshot-75c55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213218083810:android:7eb1f77f9374903f6b6fbb",
+        "android_client_info": {
+          "package_name": "com.vgcentral.aiheadshot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzE2bjZySEy1clvdy-20_mTPxhF7H5pVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

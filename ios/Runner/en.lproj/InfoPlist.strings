@@ -1,0 +1,1 @@
+NSPhotoLibraryUsageDescription = "Allow photo library access to process images for swapping faces. Without this permission, face swap process will not function.";

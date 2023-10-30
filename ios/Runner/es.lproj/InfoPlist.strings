@@ -1,0 +1,1 @@
+NSPhotoLibraryUsageDescription = "Permita el acceso a la biblioteca de fotografías para procesar imágenes e intercambiar caras. Sin este permiso, el proceso de intercambio de caras no funcionará.";

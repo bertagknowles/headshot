@@ -1,0 +1,1 @@
+NSPhotoLibraryUsageDescription = "Permitir acesso à biblioteca de fotos para processar imagens para troca de rostos. Sem esta permissão, o processo de troca de rosto não funcionará.";
