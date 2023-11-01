@@ -146,7 +146,7 @@ class FFAppState extends ChangeNotifier {
     _tokRe = _value;
   }
 
-  bool _creditsEnabled = false;
+  bool _creditsEnabled = true;
   bool get creditsEnabled => _creditsEnabled;
   set creditsEnabled(bool _value) {
     _creditsEnabled = _value;
