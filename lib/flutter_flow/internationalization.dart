@@ -146,7 +146,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'nl': 'Voeg een selfie-/bronafbeelding toe met een helder gezicht',
       'pl': 'Dodaj zdjęcie selfie/źródłowe z wyraźną twarzą',
       'pt': 'Adicionar selfie/imagem de origem com rosto claro',
-      'ru': 'Добавьте селфи/исходное изображение с чистым лицом',
+      'ru': 'Добавить селфи/исходное изображение с чистым лицом',
     },
     'gh1hdu1h': {
       'en': '(Only .jpg, jpeg accepted)',
@@ -592,23 +592,23 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'll3dppzb': {
       'en':
-          'Allow photo library access to process images for swapping faces. Without this permission, face swap process will not function.',
+          'Allow photo library access to process images for swapping headshots. Without this permission, headshot swap process will not function.',
       'de':
-          'Erlauben Sie den Zugriff auf die Fotobibliothek, um Bilder zum Austauschen von Gesichtern zu verarbeiten. Ohne diese Erlaubnis funktioniert der Face-Swap-Prozess nicht.',
+          'Erlauben Sie den Zugriff auf die Fotobibliothek, um Bilder zum Austauschen von Porträtaufnahmen zu verarbeiten. Ohne diese Berechtigung funktioniert der Headshot-Swap-Prozess nicht.',
       'es':
-          'Permita el acceso a la biblioteca de fotografías para procesar imágenes e intercambiar caras. Sin este permiso, el proceso de intercambio de caras no funcionará.',
+          'Permita el acceso a la biblioteca de fotografías para procesar imágenes e intercambiar tomas de rostro. Sin este permiso, el proceso de intercambio de fotografías no funcionará.',
       'fr':
-          'Autorisez l\'accès à la photothèque pour traiter les images pour échanger les visages. Sans cette autorisation, le processus d\'échange de visage ne fonctionnera pas.',
+          'Autorisez l’accès à la bibliothèque de photos pour traiter les images pour échanger des photos à la tête. Sans cette autorisation, le processus d’échange de photos ne fonctionnera pas.',
       'it':
-          'Consenti l\'accesso alla libreria di foto per elaborare le immagini per lo scambio di volti. Senza questa autorizzazione, il processo di scambio dei volti non funzionerà.',
+          'Consenti l\'accesso alla libreria di foto per elaborare le immagini per lo scambio di colpi alla testa. Senza questa autorizzazione, il processo di scambio dell\'headshot non funzionerà.',
       'nl':
-          'Geef toegang tot de fotobibliotheek om afbeeldingen te verwerken voor het wisselen van gezichten. Zonder deze toestemming functioneert het face-swapproces niet.',
+          'Geef toegang tot de fotobibliotheek om afbeeldingen te verwerken voor het uitwisselen van portretfoto\'s. Zonder deze toestemming functioneert het headshot-wisselproces niet.',
       'pl':
-          'Zezwól na dostęp do biblioteki zdjęć w celu przetwarzania obrazów w celu zamiany twarzy. Bez tego pozwolenia proces zamiany twarzy nie będzie działał.',
+          'Zezwól na dostęp do biblioteki zdjęć w celu przetwarzania obrazów w celu wymiany zdjęć głowy. Bez tego pozwolenia proces wymiany strzałów w głowę nie będzie działał.',
       'pt':
-          'Permitir acesso à biblioteca de fotos para processar imagens para troca de rostos. Sem esta permissão, o processo de troca de rosto não funcionará.',
+          'Permitir acesso à biblioteca de fotos para processar imagens para troca de fotos. Sem esta permissão, o processo de troca de headshot não funcionará.',
       'ru':
-          'Разрешите доступ к библиотеке фотографий, чтобы обрабатывать изображения для замены лиц. Без этого разрешения процесс замены лиц работать не будет.',
+          'Разрешите доступ к библиотеке фотографий для обработки изображений для замены снимков головы. Без этого разрешения процесс замены хедшотов работать не будет.',
     },
     '9jafympo': {
       'en': '',

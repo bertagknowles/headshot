@@ -1,1 +1,1 @@
-NSPhotoLibraryUsageDescription = "Autorisez l'accès à la photothèque pour traiter les images pour échanger les visages. Sans cette autorisation, le processus d'échange de visage ne fonctionnera pas.";
+NSPhotoLibraryUsageDescription = "Autorisez l’accès à la bibliothèque de photos pour traiter les images pour échanger des photos à la tête. Sans cette autorisation, le processus d’échange de photos ne fonctionnera pas.";

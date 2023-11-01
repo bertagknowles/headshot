@@ -251,14 +251,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
       }
       _model.internetEnabledCopy1 = await actions.checkInternetConnection();
       if (_model.internetEnabledCopy1 == true) {
-        if ((FFAppState().ratingCount == 4) ||
-            (FFAppState().ratingCount == 10) ||
-            (FFAppState().ratingCount == 20) ||
-            (FFAppState().ratingCount == 30)) {
+        if (FFAppState().ratingCount == 8) {
           await actions.requestRating();
         }
         if (FFAppState().ratingCount > 50) {
-          FFAppState().ratingCount = 1;
+          FFAppState().ratingCount = 0;
         }
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -1079,14 +1076,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                             await actions.checkInternetConnection();
                         _shouldSetState = true;
                         if (_model.internetEnabledClose3rd == true) {
-                          if ((FFAppState().ratingCount == 4) ||
-                              (FFAppState().ratingCount == 10) ||
-                              (FFAppState().ratingCount == 20) ||
-                              (FFAppState().ratingCount == 30)) {
+                          if (FFAppState().ratingCount == 8) {
                             await actions.requestRating();
                           }
                           if (FFAppState().ratingCount > 50) {
-                            FFAppState().ratingCount = 1;
+                            FFAppState().ratingCount = 0;
                           }
                         } else {
                           ScaffoldMessenger.of(context).showSnackBar(
@@ -1776,14 +1770,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   await actions.checkInternetConnection();
                               _shouldSetState = true;
                               if (_model.internetEnabledClose2nd == true) {
-                                if ((FFAppState().ratingCount == 4) ||
-                                    (FFAppState().ratingCount == 10) ||
-                                    (FFAppState().ratingCount == 20) ||
-                                    (FFAppState().ratingCount == 30)) {
+                                if (FFAppState().ratingCount == 8) {
                                   await actions.requestRating();
                                 }
                                 if (FFAppState().ratingCount > 50) {
-                                  FFAppState().ratingCount = 1;
+                                  FFAppState().ratingCount = 0;
                                 }
                               } else {
                                 ScaffoldMessenger.of(context).showSnackBar(

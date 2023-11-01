@@ -1,1 +1,1 @@
-NSPhotoLibraryUsageDescription = "Erlauben Sie den Zugriff auf die Fotobibliothek, um Bilder zum Austauschen von Gesichtern zu verarbeiten. Ohne diese Erlaubnis funktioniert der Face-Swap-Prozess nicht.";
+NSPhotoLibraryUsageDescription = "Erlauben Sie den Zugriff auf die Fotobibliothek, um Bilder zum Austauschen von Porträtaufnahmen zu verarbeiten. Ohne diese Berechtigung funktioniert der Headshot-Swap-Prozess nicht.";

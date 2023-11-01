@@ -68,7 +68,7 @@
 	<key>NSCameraUsageDescription</key>
     <string>In order to take a picture or video, this app requires permission to access the camera.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-    <string>Allow photo library access to process images for swapping faces. Without this permission, face swap process will not function.</string>
+    <string>Allow photo library access to process images for swapping headshots. Without this permission, headshot swap process will not function.</string>
 
 
 
