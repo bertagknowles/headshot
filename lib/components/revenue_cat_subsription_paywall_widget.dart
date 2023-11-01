@@ -75,7 +75,7 @@ class _RevenueCatSubsriptionPaywallWidgetState
               SelectionArea(
                   child: Text(
                 FFLocalizations.of(context).getText(
-                  'n84eobvz' /* ✨ AI Face Swap Photo */,
+                  'n84eobvz' /* ✨ AI Headshot Swap  */,
                 ),
                 textAlign: TextAlign.center,
                 style: FlutterFlowTheme.of(context).titleMedium.override(

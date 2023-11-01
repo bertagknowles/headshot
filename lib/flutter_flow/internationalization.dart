@@ -433,7 +433,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // RevenueCatSubsriptionPaywall
   {
     'n84eobvz': {
-      'en': '✨ AI Face Swap Photo',
+      'en': '✨ AI Headshot Swap ',
       'de': '✨ AI Face Swap Foto',
       'es': '✨ Foto de intercambio de cara AI',
       'fr': '✨ Photo d\'échange de visage AI',
