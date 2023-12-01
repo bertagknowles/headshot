@@ -1246,7 +1246,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
                         Duration(milliseconds: 2000),
                         () => setState(() {}),
                       ),
-                      autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(
                         labelText: FFLocalizations.of(context).getText(
