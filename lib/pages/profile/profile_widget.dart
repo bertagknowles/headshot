@@ -635,9 +635,9 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                       16.0, 16.0, 16.0, 16.0),
                                   child: AutoSizeText(
                                     FFLocalizations.of(context).getText(
-                                      'umc1fy0d' /* AI Headshot Swap
+                                      'umc1fy0d' /* AI Headshot Generator
 
-Introducing ... */
+Introdu... */
                                       ,
                                     ),
                                     textAlign: TextAlign.center,

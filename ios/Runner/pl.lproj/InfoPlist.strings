@@ -1,1 +1,1 @@
-NSPhotoLibraryUsageDescription = "Zezwól na dostęp do biblioteki zdjęć w celu przetwarzania obrazów w celu wymiany zdjęć głowy. Bez tego pozwolenia proces wymiany strzałów w głowę nie będzie działał.";
+NSPhotoLibraryUsageDescription = "Zezwól na dostęp do biblioteki zdjęć w celu przetwarzania obrazów w celu wymiany zdjęć w głowę. Bez tego pozwolenia proces wymiany strzałów w głowę nie będzie działał.";

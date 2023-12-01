@@ -127,15 +127,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // HomePage
   {
     'zxfqn9tc': {
-      'en': 'AI Headshot Swap',
-      'de': 'KI-Kopfschuss-Tausch',
-      'es': 'Intercambio de disparos en la cabeza con IA',
-      'fr': 'Échange de tir à la tête de l\'IA',
-      'it': 'Scambio colpi alla testa dell\'IA',
-      'nl': 'AI-headshotwissel',
-      'pl': 'Zamiana strzałów w głowę AI',
-      'pt': 'Troca de tiro na cabeça com IA',
-      'ru': 'Замена ИИ в голову',
+      'en': 'AI Headshot Generator',
+      'de': 'KI-Kopfschussgenerator',
+      'es': 'Generador de disparos en la cabeza con IA',
+      'fr': 'Générateur de headshots IA',
+      'it': 'Generatore di colpi alla testa dell\'IA',
+      'nl': 'AI Headshot-generator',
+      'pl': 'Generator strzałów w głowę AI',
+      'pt': 'Gerador de tiro na cabeça de IA',
+      'ru': 'Генератор выстрелов в голову с искусственным интеллектом',
     },
     '2fk1obt1': {
       'en': 'Add Selfie/Source Image with Clear Face',
@@ -146,7 +146,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'nl': 'Voeg een selfie-/bronafbeelding toe met een helder gezicht',
       'pl': 'Dodaj zdjęcie selfie/źródłowe z wyraźną twarzą',
       'pt': 'Adicionar selfie/imagem de origem com rosto claro',
-      'ru': 'Добавить селфи/исходное изображение с чистым лицом',
+      'ru': 'Добавьте селфи/исходное изображение с чистым лицом',
     },
     'gh1hdu1h': {
       'en': '(Only .jpg, jpeg accepted)',
@@ -160,47 +160,57 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ru': '(Принимаются только .jpg, jpeg)',
     },
     'ud5i66ne': {
-      'en': 'Add Target Headshot Template',
-      'de': 'Ziel-Headshot-Vorlage hinzufügen',
-      'es': 'Agregar plantilla de retrato de objetivo',
-      'fr': 'Ajouter un modèle de photo cible',
-      'it': 'Aggiungi modello di colpo alla testa del bersaglio',
-      'nl': 'Doel-headshot-sjabloon toevoegen',
-      'pl': 'Dodaj szablon strzału w głowę celu',
-      'pt': 'Adicionar modelo de tiro na cabeça do alvo',
-      'ru': 'Добавить шаблон целевого выстрела в голову',
+      'en': 'Add Pose Image',
+      'de': 'Posenbild hinzufügen',
+      'es': 'Agregar imagen de pose',
+      'fr': 'Ajouter une image de pose',
+      'it': 'Aggiungi immagine di posa',
+      'nl': 'Pose-afbeelding toevoegen',
+      'pl': 'Dodaj obraz pozy',
+      'pt': 'Adicionar imagem de pose',
+      'ru': 'Добавить изображение позы',
     },
-    'voc0oo10': {
-      'en': 'Or add custom headshot as target',
-      'de':
-          'Oder fügen Sie einen benutzerdefinierten Kopfschuss als Ziel hinzu',
-      'es': 'O agregue un disparo a la cabeza personalizado como objetivo',
-      'fr': 'Ou ajoutez une photo personnalisée comme cible',
-      'it': 'Oppure aggiungi un colpo alla testa personalizzato come bersaglio',
-      'nl': 'Of voeg een aangepaste portretfoto toe als doelwit',
-      'pl': 'Lub dodaj niestandardowy strzał w głowę jako cel',
-      'pt': 'Ou adicione um headshot personalizado como alvo',
-      'ru': 'Или добавьте собственный снимок головы в качестве цели.',
+    'fjpxjd4v': {
+      'en': 'Enter prompt',
+      'de': 'Eingabeaufforderung eingeben',
+      'es': 'Introduzca el mensaje',
+      'fr': 'Entrez l\'invite',
+      'it': 'Inserisci la richiesta',
+      'nl': 'Voer prompt in',
+      'pl': 'Wprowadź monit',
+      'pt': 'Digite o prompt',
+      'ru': 'Введите подсказку',
+    },
+    'jquywzjb': {
+      'en': 'a portrait of a man wearing a suit',
+      'de': 'ein Porträt eines Mannes im Anzug',
+      'es': 'un retrato de un hombre vestido con traje',
+      'fr': 'un portrait d\'un homme portant un costume',
+      'it': 'un ritratto di un uomo che indossa un abito',
+      'nl': 'een portret van een man in pak',
+      'pl': 'portret mężczyzny w garniturze',
+      'pt': 'um retrato de um homem vestindo um terno',
+      'ru': 'портрет мужчины в костюме',
     },
     'g6qxjodl': {
       'en':
-          'AI processing is compute intensive and may take some time depending on server loads. ',
+          'AI processing may take 1 to 5 minutes depending on server loads. Please be patient.',
       'de':
-          'Die KI-Verarbeitung ist rechenintensiv und kann je nach Serverauslastung einige Zeit dauern.',
+          'Die KI-Verarbeitung kann je nach Serverauslastung 1 bis 5 Minuten dauern. Bitte haben Sie Geduld.',
       'es':
-          'El procesamiento de IA requiere un uso intensivo de computación y puede llevar algún tiempo dependiendo de las cargas del servidor.',
+          'El procesamiento de IA puede tardar de 1 a 5 minutos dependiendo de la carga del servidor. Por favor sea paciente.',
       'fr':
-          'Le traitement de l\'IA nécessite beaucoup de calcul et peut prendre un certain temps en fonction de la charge du serveur.',
+          'Le traitement de l\'IA peut prendre 1 à 5 minutes en fonction de la charge du serveur. S\'il vous plaît soyez patient.',
       'it':
-          'L\'elaborazione dell\'intelligenza artificiale richiede un utilizzo intensivo del calcolo e potrebbe richiedere del tempo a seconda dei carichi del server.',
+          'L\'elaborazione AI può richiedere da 1 a 5 minuti a seconda dei carichi del server. Per favore sii paziente.',
       'nl':
-          'AI-verwerking is rekenintensief en kan enige tijd duren, afhankelijk van de serverbelasting.',
+          'Afhankelijk van de serverbelasting kan de AI-verwerking 1 tot 5 minuten duren. Wees alstublieft geduldig.',
       'pl':
-          'Przetwarzanie AI wymaga dużej mocy obliczeniowej i może zająć trochę czasu w zależności od obciążenia serwera.',
+          'Przetwarzanie AI może zająć od 1 do 5 minut w zależności od obciążenia serwera. Proszę być cierpliwym.',
       'pt':
-          'O processamento de IA exige muita computação e pode levar algum tempo dependendo das cargas do servidor.',
+          'O processamento da IA ​​pode levar de 1 a 5 minutos, dependendo da carga do servidor. Por favor, seja paciente.',
       'ru':
-          'Обработка ИИ требует больших вычислительных ресурсов и может занять некоторое время в зависимости от нагрузки на сервер.',
+          'Обработка AI может занять от 1 до 5 минут в зависимости от нагрузки на сервер. Пожалуйста, будьте терпеливы.',
     },
     '4lhkpvc2': {
       'en': 'Processing Images....',
@@ -214,15 +224,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ru': 'Обработка изображений....',
     },
     'oi9xgmw6': {
-      'en': 'Swap Headshot',
-      'de': 'Kopfschuss tauschen',
-      'es': 'Intercambiar foto en la cabeza',
-      'fr': 'Échanger la photo du visage',
-      'it': 'Scambia il colpo alla testa',
-      'nl': 'Wissel van hoofdfoto',
-      'pl': 'Zamień strzał w głowę',
-      'pt': 'Trocar foto na cabeça',
-      'ru': 'Обмен выстрелами в голову',
+      'en': 'Generate',
+      'de': 'Generieren',
+      'es': 'Generar',
+      'fr': 'Générer',
+      'it': 'creare',
+      'nl': 'Genereer',
+      'pl': 'Generować',
+      'pt': 'Gerar',
+      'ru': 'Генерировать',
     },
     '4llcj4n0': {
       'en': 'Reset/Clear Image',
@@ -364,23 +374,23 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'umc1fy0d': {
       'en':
-          'AI Headshot Swap\n\nIntroducing \"AI Headshot Swap\", an extraordinary app that magically puts a new spin on your headshot photos! Immerse yourself in a world of mesmerizing transformations as cutting-edge AI technology seamlessly swaps faces in a blink of an eye! Whether you\'re after a burst of laughter or a dash of creativity, \"AI Headshot Swap\" has got you covered! Enhance your personal or professional portfolio with captivating headshot swaps that will make heads turn.',
+          'AI Headshot Generator\n\nIntroducing \"AI Headshot Generator\", an extraordinary app that magically puts a new spin on your selfies! Immerse yourself in a world of mesmerizing transformations as cutting-edge AI technology seamlessly generates headshot photos in minutes! Whether you\'re after a burst of laughter or a dash of creativity, \"AI Headshot Generator\" has got you covered! Enhance your personal or professional portfolio with captivating headshots that will make heads turn.',
       'de':
-          'KI-Kopfschuss-Tausch\n\nWir stellen Ihnen „AI Headshot Swap“ vor, eine außergewöhnliche App, die Ihren Headshot-Fotos auf magische Weise eine neue Note verleiht! Tauchen Sie ein in eine Welt faszinierender Transformationen, während modernste KI-Technologie im Handumdrehen nahtlos Gesichter tauscht! Egal, ob Sie auf der Suche nach einem Ausbruch aus Lachen oder einer Prise Kreativität sind, „AI Headshot Swap“ ist genau das Richtige für Sie! Bereichern Sie Ihr persönliches oder berufliches Portfolio mit fesselnden Headshot-Swaps, die für Aufsehen sorgen.',
+          'KI-Kopfschussgenerator\n\nWir stellen Ihnen „AI Headshot Generator“ vor, eine außergewöhnliche App, die Ihren Selfies auf magische Weise eine neue Note verleiht! Tauchen Sie ein in eine Welt faszinierender Transformationen, während modernste KI-Technologie in wenigen Minuten nahtlos Porträtfotos generiert! Egal, ob Sie auf der Suche nach einem Ausbruch aus Lachen oder einer Prise Kreativität sind, „AI Headshot Generator“ ist genau das Richtige für Sie! Bereichern Sie Ihr persönliches oder berufliches Portfolio mit fesselnden Portraitfotos, die für Aufsehen sorgen.',
       'es':
-          'Intercambio de disparos en la cabeza con IA\n\n¡Presentamos \"AI Headshot Swap\", una aplicación extraordinaria que mágicamente le da un nuevo giro a tus fotos de rostros! ¡Sumérgete en un mundo de transformaciones fascinantes mientras la tecnología de inteligencia artificial de vanguardia cambia caras sin problemas en un abrir y cerrar de ojos! Ya sea que busques una carcajada o una pizca de creatividad, ¡\"AI Headshot Swap\" lo tiene cubierto! Mejore su cartera personal o profesional con cautivadores intercambios de fotografías que llamarán la atención.',
+          'Generador de disparos en la cabeza con IA\n\n¡Presentamos \"AI Headshot Generator\", una aplicación extraordinaria que mágicamente le da un nuevo giro a tus selfies! ¡Sumérjase en un mundo de transformaciones fascinantes mientras la tecnología de inteligencia artificial de vanguardia genera sin problemas fotografías de rostros en minutos! Ya sea que busques una carcajada o una pizca de creatividad, ¡el \"Generador de disparos en la cabeza con IA\" lo tiene cubierto! Mejore su portafolio personal o profesional con cautivadores retratos que llamarán la atención.',
       'fr':
-          'Échange de tir à la tête de l\'IA\n\nPrésentation de \"AI Headshot Swap\", une application extraordinaire qui donne comme par magie une nouvelle tournure à vos photos ! Plongez-vous dans un monde de transformations fascinantes grâce à la technologie d\'IA de pointe qui échange les visages de manière transparente en un clin d\'œil ! Que vous recherchiez un éclat de rire ou un soupçon de créativité, \"AI Headshot Swap\" est là pour vous ! Améliorez votre portfolio personnel ou professionnel avec des échanges de portraits captivants qui feront tourner les têtes.',
+          'Générateur de headshots IA\n\nPrésentation de « AI Headshot Generator », une application extraordinaire qui donne comme par magie une nouvelle tournure à vos selfies ! Plongez-vous dans un monde de transformations fascinantes grâce à la technologie d\'IA de pointe qui génère de manière transparente des photos de tête en quelques minutes ! Que vous recherchiez un éclat de rire ou un soupçon de créativité, \"AI Headshot Generator\" est là pour vous ! Améliorez votre portfolio personnel ou professionnel avec des portraits captivants qui feront tourner les têtes.',
       'it':
-          'Scambio colpi alla testa dell\'IA\n\nTi presentiamo \"AI Headshot Swap\", un\'app straordinaria che magicamente dà una nuova svolta alle tue foto dei colpi alla testa! Immergiti in un mondo di trasformazioni affascinanti mentre la tecnologia AI all\'avanguardia scambia i volti senza soluzione di continuità in un batter d\'occhio! Che tu stia cercando uno scoppio di risate o un pizzico di creatività, \"AI Headshot Swap\" è quello che fa per te! Migliora il tuo portfolio personale o professionale con accattivanti scambi di headshot che faranno girare la testa.',
+          'Generatore di colpi alla testa dell\'IA\n\nTi presentiamo \"AI Headshot Generator\", un\'app straordinaria che magicamente dà una nuova svolta ai tuoi selfie! Immergiti in un mondo di trasformazioni affascinanti mentre la tecnologia AI all\'avanguardia genera facilmente foto di primi piani in pochi minuti! Che tu stia cercando uno scoppio di risate o un pizzico di creatività, \"AI Headshot Generator\" è quello che fa per te! Migliora il tuo portfolio personale o professionale con accattivanti colpi alla testa che faranno girare la testa.',
       'nl':
-          'AI-headshotwissel\n\nMaak kennis met \"AI Headshot Swap\", een buitengewone app die op magische wijze een nieuwe draai aan je portretfoto\'s geeft! Dompel jezelf onder in een wereld vol betoverende transformaties terwijl de allernieuwste AI-technologie in een oogwenk naadloos van gezicht wisselt! Of je nu op zoek bent naar een lachbui of een vleugje creativiteit, \"AI Headshot Swap\" heeft wat je zoekt! Verbeter uw persoonlijke of professionele portfolio met boeiende headshot-swaps die de aandacht zullen trekken.',
+          'AI Headshot-generator\n\nMaak kennis met \"AI Headshot Generator\", een buitengewone app die op magische wijze een nieuwe draai aan je selfies geeft! Dompel jezelf onder in een wereld vol betoverende transformaties terwijl de allernieuwste AI-technologie binnen enkele minuten naadloos portretfoto\'s genereert! Of je nu op zoek bent naar een lachbui of een vleugje creativiteit, \"AI Headshot Generator\" heeft wat je zoekt! Verbeter uw persoonlijke of professionele portfolio met boeiende portretfoto\'s die de aandacht zullen trekken.',
       'pl':
-          'Zamiana strzałów w głowę AI\n\nPrzedstawiamy „AI Headshot Swap”, niezwykłą aplikację, która w magiczny sposób nadaje nowy charakter Twoim zdjęciom wykonanym w głowę! Zanurz się w świecie hipnotyzujących przemian, gdy najnowocześniejsza technologia AI płynnie zamienia twarze w mgnieniu oka! Niezależnie od tego, czy szukasz wybuchu śmiechu, czy odrobiny kreatywności, „AI Headshot Swap” zapewni Ci wszystko! Wzbogać swoje osobiste lub zawodowe portfolio dzięki urzekającym wymianom zdjęć w głowę, które przyciągną wzrok.',
+          'Generator strzałów w głowę AI\n\nPrzedstawiamy „Generator strzałów w głowę AI”, niezwykłą aplikację, która w magiczny sposób nadaje nowy charakter Twoim selfie! Zanurz się w świecie hipnotyzujących przemian, ponieważ najnowocześniejsza technologia AI płynnie generuje zdjęcia głowy w ciągu kilku minut! Niezależnie od tego, czy szukasz wybuchu śmiechu, czy odrobiny kreatywności, „Generator strzałów w głowę AI” zapewni Ci wszystko! Wzbogać swoje osobiste lub zawodowe portfolio o urzekające zdjęcia głowy, które przyciągną wzrok.',
       'pt':
-          'Troca de tiro na cabeça com IA\n\nApresentando o \"AI Headshot Swap\", um aplicativo extraordinário que magicamente dá um novo toque às suas fotos de headshot! Mergulhe em um mundo de transformações fascinantes enquanto a tecnologia de IA de ponta troca de rosto em um piscar de olhos! Esteja você atrás de uma explosão de risadas ou de uma pitada de criatividade, \"AI Headshot Swap\" tem o que você precisa! Aprimore seu portfólio pessoal ou profissional com trocas cativantes de headshots que farão girar as cabeças.',
+          'Gerador de tiro na cabeça de IA\n\nApresentando o \"AI Headshot Generator\", um aplicativo extraordinário que magicamente dá um novo toque às suas selfies! Mergulhe em um mundo de transformações fascinantes, pois a tecnologia de IA de ponta gera fotos de rosto em minutos! Esteja você atrás de uma gargalhada ou de uma pitada de criatividade, o \"AI Headshot Generator\" tem o que você precisa! Aprimore seu portfólio pessoal ou profissional com fotos cativantes que farão girar as cabeças.',
       'ru':
-          'Замена ИИ в голову\n\nПредставляем «AI Headshot Swap», необычное приложение, которое волшебным образом придаст новый вид вашим фотографиям! Погрузитесь в мир завораживающих трансформаций, когда передовая технология искусственного интеллекта плавно меняет лица в мгновение ока! Если вам нужен взрыв смеха или творческий подход, «AI Headshot Swap» поможет вам! Улучшите свое личное или профессиональное портфолио с помощью увлекательных снимков головы, которые заставят обратить на себя внимание.',
+          'Генератор выстрелов в голову с искусственным интеллектом\n\nПредставляем «AI Headshot Generator», необычное приложение, которое волшебным образом придаст вашим селфи новый вид! Погрузитесь в мир завораживающих трансформаций, поскольку передовая технология искусственного интеллекта позволяет создавать фотографии в голову за считанные минуты! Если вам нужен взрыв смеха или творческий подход, «AI Headshot Generator» поможет вам! Украсьте свое личное или профессиональное портфолио захватывающими фотографиями, которые заставят обратить на себя внимание.',
     },
     'v8923zu8': {
       'en': 'Settings',
@@ -434,14 +444,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'n84eobvz': {
       'en': '✨ AI Headshot Swap ',
-      'de': '✨ AI Face Swap Foto',
-      'es': '✨ Foto de intercambio de cara AI',
-      'fr': '✨ Photo d\'échange de visage AI',
-      'it': '✨ Foto di scambio volto AI',
-      'nl': '✨ AI Face Swap-foto',
-      'pl': '✨ Zdjęcie zamiany twarzy AI',
-      'pt': '✨ Foto de troca de rosto AI',
-      'ru': '✨ Фото замены лица с помощью ИИ',
+      'de': '✨ KI-Kopfschuss-Tausch',
+      'es': '✨ Intercambio de disparos en la cabeza con IA',
+      'fr': '✨ Échange de photos de l\'IA',
+      'it': '✨ Scambio colpi alla testa dell\'IA',
+      'nl': '✨ AI-headshotwissel',
+      'pl': '✨ Zamiana strzałów w głowę AI',
+      'pt': '✨ Troca de tiro na cabeça com IA',
+      'ru': '✨ Обмен выстрелами в голову с помощью ИИ',
     },
     'h73inq1v': {
       'en': 'Unlimited access\nHigh server priority\nLess waiting time ',
@@ -604,7 +614,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'nl':
           'Geef toegang tot de fotobibliotheek om afbeeldingen te verwerken voor het uitwisselen van portretfoto\'s. Zonder deze toestemming functioneert het headshot-wisselproces niet.',
       'pl':
-          'Zezwól na dostęp do biblioteki zdjęć w celu przetwarzania obrazów w celu wymiany zdjęć głowy. Bez tego pozwolenia proces wymiany strzałów w głowę nie będzie działał.',
+          'Zezwól na dostęp do biblioteki zdjęć w celu przetwarzania obrazów w celu wymiany zdjęć w głowę. Bez tego pozwolenia proces wymiany strzałów w głowę nie będzie działał.',
       'pt':
           'Permitir acesso à biblioteca de fotos para processar imagens para troca de fotos. Sem esta permissão, o processo de troca de headshot não funcionará.',
       'ru':

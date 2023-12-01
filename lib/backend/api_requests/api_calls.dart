@@ -43,7 +43,7 @@ class GetPredictionCall {
       );
   dynamic output(dynamic response) => getJsonField(
         response,
-        r'''$.output[0]''',
+        r'''$.output''',
       );
   dynamic error(dynamic response) => getJsonField(
         response,
@@ -56,16 +56,17 @@ class CreatePredictionCall {
     String? imageURL = '',
     String? tokReCreate = '',
     String? imageURL2 = '',
+    String? prompt = '',
   }) async {
     final ffApiRequestBody = '''
 {
-  "version": "8c1e100ecabb3151cf1e6c62879b6de7a4b84602de464ed249b6cff0b86211d8",
+  "version": "8a8a433d097748349b236e3c555b186b1d475de1d85a6a4915aa3140581dd8da",
   "input": {
-    "source": "data:image/jpeg;base64,${imageURL}",
-    "target": "data:image/jpeg;base64,${imageURL2}",
-    "keep_fps": false,
-    "keep_frames": false,
-    "enhance_face": true
+    "face_image": "data:image/jpeg;base64,${imageURL}",
+    "pose_image": "data:image/jpeg;base64,${imageURL2}",
+    "prompt": "${prompt}",
+    "n_prompt": "nude, nsfw, naked, explicit, porn, text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+    "width": 512
   }
 }''';
     return ApiManager.instance.makeApiCall(
